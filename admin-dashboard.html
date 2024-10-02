@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-admin.css">
+    <title>Admin-Panel</title>
+</head>
+<body>
+    <div class="side-menu">
+         <div class="brand-name">
+               <h1>North Research Library</h1>
+         </div>
+         <ul>
+            <li><a href="#" class="active"><img src="img/dashboard (2).png" alt="">&nbsp; DashBoard</a></li>
+            <li><a href="user-details.html"><img src="img/reading-book (1).png" alt="">&nbsp; Users</a></li>
+            <li><a href="book.html"><img src="img/school.png" alt="">&nbsp; Inventory</a></li>
+            <li><a href="report.html"><img src="img/teacher2.png" alt="">&nbsp; Report</a></li>
+         </ul>
+    </div>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="navdiv">
+              <div class="logo"><a href="#"></a></div>
+              <ul>
+                <li class="nvy"><a href="home.html">Home</a></li>
+                <button id="logoutButton">Logout</button>
+              </ul>
+            </div>
+          </div>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="box" id="totalBooksBox">
+                        <h3>Total Books</h3>
+                        <p id="totalBooksCount">0</p> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box" id="totalUserBox">
+                        <h3>Total Users</h3>
+                        <p id="totalUsersCount">0</p> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box" id="totalBorrowedBooksBox">
+                        <h3>Total Borrow Books</h3>
+                        <p id="totalBorrowedBooksCount">0</p> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="container1">
+                <h1>Borrowed Books</h1>
+                <table id="borrowedBooksTable" class="responsive-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Borrowed By</th>
+                            <th>Borrow Date</th>
+                            <th>Due Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+
+
+    <script src="js/script-admin.js"></script>
+</body>
+</html>

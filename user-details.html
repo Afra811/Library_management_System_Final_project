@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Details</title>
+  <link rel="stylesheet" href="css/user-details.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navdiv">
+      <div class="logo"><a href="#">North Research Library</a></div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="admin-dashboard.html">DashBoard</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li><a href="report.html">Report</a></li>
+        <button id="logoutButton">Logout</button>
+      </ul>
+    </div>
+  </div>
+  <header>
+    <h1>User Details</h1>
+  </header>
+  <main>
+    <div class="table-container">
+      <table id="userTable">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>National ID</th>
+            <th>Contact No</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- From localStorage-->
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <div class="pagination">
+    <button id="prevPage" disabled>Previous</button>
+    <span id="pageInfo"></span>
+    <button id="nextPage">Next</button>
+</div>
+  <script src="js/user-details.js"></script>
+</body>
+</html>

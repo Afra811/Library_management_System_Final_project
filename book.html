@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Inventory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navdiv">
+          <div class="logo"><a href="#">North Research Library</a></div>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="admin-dashboard.html">DashBoard</a></li>
+            <li><a href="user-details.html">User</a></li>
+            <li><a href="report.html">Report</a></li>
+            <button id="logoutButton">Logout</button>
+          </ul>
+        </div>
+      </div>
+    <header>
+        <h1>Library Inventory</h1>
+    </header>
+    
+    <main>
+        <section class="toolbar">
+            <button id="open-form-btn">Add New Book</button>
+            <input type="text" id="search-bar" placeholder="Search by title or author...">
+        </section>
+        
+        <section class="table-section">
+            <h2 >Book Inventory</h2>
+            <table id="book-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Photo</th>
+                        <th>Book Title</th>
+                        <th>Author</th>
+                        <th>Year</th>
+                        <th>Quality</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            <div id="pagination">
+               
+            </div>
+        </section>
+        
+       
+        <div id="popup-form" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <h2>Add New Book</h2>
+                <form id="book-form" enctype="multipart/form-data">
+                    <input type="hidden" id="book-id">
+                    
+                    <label for="photo">Book Photo:</label>
+                    <input type="file" id="photo" accept="image/*">
+                    
+                    <label for="book-title">Book Title:</label>
+                    <input type="text" id="book-title" required>
+                    
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" required>
+                    
+                    <label for="year">Year:</label>
+                    <input type="number" id="year" required>
+
+                    <label for="quality">Quality:</label>
+                    <input type="text" id="quality" required>
+                    
+                    <button type="submit">Add Book</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <script src="js/script-book.js"></script>
+</body>
+</html>

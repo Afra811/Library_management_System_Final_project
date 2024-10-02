@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Home Page</title>
+    <link rel="stylesheet" href="css/style-home.css">
+</head>
+<body>
+    <header>
+        <h1>North Research Library</h1>
+        <nav>
+          <a href="welcome.html">Welcome</a>
+          <a id="admin-link" href="admin-dashboard.html" style="display: none;">Admin Dashboard</a>
+          <a href="user-profile.html">My Account</a>
+          <a href="css/contact.html">Contact Us</a>
+          <button id="logoutButton">Logout</button>
+        </nav>          
+    </header>
+    <main>
+        <section id="book-display">
+            <h2>Available Books</h2>
+            <hr>
+            <div id="books-container"></div>
+        </section>
+       <hr>
+        <div id="pagination-controls">
+            <button id="prev-page" disabled>Previous</button>
+            <span id="page-info">Page 1</span>
+            <button id="next-page">Next</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section contact-info">
+                <p>Contact us:</p>
+                <p>Address: 123 Library St, Polonnaruwa</p>
+                <p>Phone: 0754561268</p>
+                <p>Email: info@library.com</p>
+            </div>
+            <div class="footer-section copyright">
+                <p>&copy; 2024 Afrah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script-home.js"></script>
+</body>
+</html>

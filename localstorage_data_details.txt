@@ -1,0 +1,15 @@
+key - users
+value -
+[{"firstname":"AdamBawa","lastname":"Afra","email":"af@gmail.com","nationalId":"995585162V","contactNo":"0753306058","password":"123","role":"user"},{"firstname":"AdamBawa","lastname":"Afra","email":"a@gmail.com","nationalId":"995585162V","contactNo":"0762520677","password":"123","role":"user"},{"firstname":"Adambawa","lastname":"Aseer","email":"aseer@gmail.com","nationalId":"975585162V","contactNo":"0757792973","password":"123","role":"user"},{"firstname":"AdamBawa","lastname":"Afkar","email":"afkar@gmail.com","nationalId":"20040102612456","contactNo":"0743040507","password":"123","role":"user"},{"firstname":"Athan","lastname":"Najath","email":"najath@gmail.com","nationalId":"9677885544","contactNo":"0753306068","password":"123","role":"user"},{"firstname":"Mohamed","lastname":"Arshad","email":"arshad@gmail.com","nationalId":"20030405067","contactNo":"0765434647","password":"123","role":"user"},{"firstname":"vijayanathan","lastname":"Abiraj","email":"abiraj@gmail.com","nationalId":"200224204071","contactNo":"0756555455","password":"123","role":"user"},{"firstname":"Akeel","lastname":"Arshan","email":"akeel@gmail.com","nationalId":"20010203045","contactNo":"0768676969","password":"123","role":"user"},{"firstname":"Nona","lastname":"Rimasiya","email":"rima@gmail.com","nationalId":"200304050678","contactNo":"0764535252","password":"123","role":"user"}]
+
+
+key - books
+value - you should have to add the book I gave the all book details and picture for different files
+
+librarian loging hardcode 
+usermail - admin@gmail.com
+password - admin123
+
+
+
+

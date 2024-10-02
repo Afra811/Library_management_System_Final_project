@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Reports</title>
+    <link rel="stylesheet" href="css/report.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navdiv">
+          <div class="logo"><a href="#">North Research Library</a></div>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="admin-dashboard.html">DashBoard</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="user-details.html">User</a></li>
+            <button id="logoutButton">Logout</button>
+          </ul>
+        </div>
+      </div>
+    <div class="container">
+        <h1>Library Reports</h1>
+        <div class="tabs">
+            <button class="tab-button" onclick="showReport('books')">Books Report</button>
+            <button class="tab-button" onclick="showReport('borrowed')">Borrowed Books Report</button>
+            <button class="tab-button" onclick="showReport('users')">User Report</button>
+            <button class="tab-button" onclick="showReport('overdue')">Overdue Books Report</button>
+        </div>
+
+        <div id="books-report" class="report-section"></div>
+        <div id="borrowed-report" class="report-section" style="display: none;"></div>
+        <div id="users-report" class="report-section" style="display: none;"></div>
+        <div id="overdue-report" class="report-section" style="display: none;"></div>
+    </div>
+    <script src="js/report.js"></script>
+</body>
+</html>
